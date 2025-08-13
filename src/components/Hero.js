@@ -606,7 +606,6 @@ const Hero = () => {
               £50.00 sent<br />
               Successfully!
             </SuccessText>
-            <Arrow />
           </SuccessPopup>
         </VisualSection>
       </Container>
