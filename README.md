@@ -5,7 +5,6 @@ A modern, elegant React application for Knoxpay, a UK-based payment initiation p
 ## 🎨 Design Features
 
 ### Color Scheme & Gradients
-- **Primary Gradient**: Indigo to Purple (#667eea to #764ba2)
 - **Secondary Gradient**: Pink to Red (#f093fb to #f5576c)
 - **Accent Gradient**: Blue to Cyan (#4facfe to #00f2fe)
 - **Success Gradient**: Green to Teal (#43e97b to #38f9d7)
