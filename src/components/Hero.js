@@ -574,7 +574,7 @@ const Hero = () => {
                 <UserQRCode>
                   <img src={qrCodeImage} alt="Payment QR Code" />
                 </UserQRCode>
-                <UserName>Robert Dogra Jr.</UserName>
+                <UserName>Robert Jr.</UserName>
                 <Amount>£50.00</Amount>
               </UserSection>
               
