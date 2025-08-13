@@ -211,7 +211,7 @@ const Footer = () => {
         </FooterContent>
 
         <FooterBottom>
-          <Copyright>&copy; 2024 Knoxpay. All rights reserved.</Copyright>
+          <Copyright>&copy; 2025 Knoxpay. All rights reserved.</Copyright>
         </FooterBottom>
       </Container>
 
