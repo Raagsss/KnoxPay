@@ -218,7 +218,7 @@ const Footer = () => {
 
         <FooterBottom>
           <Copyright>&copy; 2025 Knoxpay. All rights reserved.</Copyright>
-          <DesignerCredit>Designed and developed by RR</DesignerCredit>
+          <DesignerCredit>Designed and Developed by RR</DesignerCredit>
         </FooterBottom>
       </Container>
 
