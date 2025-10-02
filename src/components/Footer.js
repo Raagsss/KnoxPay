@@ -103,6 +103,12 @@ const Copyright = styled.p`
   margin: 0;
 `;
 
+const DesignerCredit = styled.p`
+  color: rgba(255, 255, 255, 0.4);
+  margin: 0.5rem 0 0 0;
+  font-size: 0.85rem;
+`;
+
 const ScrollToTop = styled(motion.button)`
   position: fixed;
   bottom: 2rem;
@@ -212,6 +218,7 @@ const Footer = () => {
 
         <FooterBottom>
           <Copyright>&copy; 2025 Knoxpay. All rights reserved.</Copyright>
+          <DesignerCredit>Designed and developed by RR</DesignerCredit>
         </FooterBottom>
       </Container>
 
