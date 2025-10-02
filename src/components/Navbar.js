@@ -294,16 +294,7 @@ const Navbar = ({ scrollY }) => {
               Contact Us
             </NavLink>
           </NavItem>
-          <NavItem>
-            <CTAButton
-              variants={menuItemVariants}
-              onClick={() => scrollToSection('join-us')}
-              whileHover={{ scale: 1.05 }}
-              whileTap={{ scale: 0.95 }}
-            >
-              Join Us
-            </CTAButton>
-          </NavItem>
+          
         </NavMenu>
 
         <MobileMenuButton onClick={toggleMobileMenu}>
