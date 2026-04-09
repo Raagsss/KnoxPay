@@ -1,0 +1,10 @@
+<svg width="80" height="60" viewBox="0 0 80 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Spiral at the bottom-left -->
+  <path d="M8 52 C8 48, 12 48, 12 52 C12 56, 8 56, 8 52" stroke="#1e3a8a" stroke-width="3" fill="none" stroke-linecap="round"/>
+  
+  <!-- Curved line from spiral to arrowhead -->
+  <path d="M12 52 Q20 45, 35 40 Q50 35, 65 30 Q75 25, 80 20" stroke="#1e3a8a" stroke-width="3" fill="none" stroke-linecap="round"/>
+  
+  <!-- Arrowhead -->
+  <path d="M75 25 L80 20 L75 15" stroke="#1e3a8a" stroke-width="3" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+</svg> 
