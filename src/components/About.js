@@ -2,7 +2,7 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import { useInView } from 'react-intersection-observer';
 import styled from 'styled-components';
-import { FaRocket, FaShieldAlt, FaBolt, FaHandshake, FaBuilding, FaUniversity, FaLandmark, FaRocket as FaEagle, FaHandshake as FaFSB, FaCheckCircle, FaComments, FaClock, FaLock, FaTimes, FaChartLine, FaGlobe, FaUsers, FaCreditCard, FaMobile, FaLock as FaSecurity } from 'react-icons/fa';
+import { FaShieldAlt, FaBolt, FaClock, FaCreditCard, FaLock as FaSecurity } from 'react-icons/fa';
 
 // Import images from assets
 import pic1 from '../assets/pic1.jpg';

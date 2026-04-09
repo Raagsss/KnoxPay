@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { useInView } from 'react-intersection-observer';
 import styled from 'styled-components';
-import { FaCheckCircle, FaCheck, FaTimes } from 'react-icons/fa';
+import { FaCheck, FaTimes } from 'react-icons/fa';
 import emailjs from '@emailjs/browser';
 
 const JoinUsSection = styled.section`
@@ -321,32 +321,6 @@ const SubmitButton = styled.button`
     cursor: not-allowed;
     transform: none;
   }
-`;
-
-const SuccessMessage = styled(motion.div)`
-  background: linear-gradient(135deg, #10b981 0%, #34d399 100%);
-  color: white;
-  padding: 2rem;
-  border-radius: 16px;
-  text-align: center;
-  margin-top: 2rem;
-`;
-
-const SuccessIcon = styled.div`
-  font-size: 3rem;
-  margin-bottom: 1rem;
-`;
-
-const SuccessTitle = styled.h3`
-  font-size: 1.5rem;
-  font-weight: 700;
-  margin-bottom: 0.5rem;
-`;
-
-const SuccessText = styled.p`
-  font-size: 1rem;
-  opacity: 0.9;
-  line-height: 1.5;
 `;
 
 const Notification = styled(motion.div)`

@@ -2,7 +2,7 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import { useInView } from 'react-intersection-observer';
 import styled from 'styled-components';
-import { FaPlay, FaStar, FaCheck, FaCreditCard, FaUser, FaTimes } from 'react-icons/fa';
+import { FaPlay, FaStar, FaCheck, FaTimes } from 'react-icons/fa';
 import arrowImage from '../assets/arrow.png';
 import qrCodeImage from '../assets/qr-sample.png';
 
@@ -292,37 +292,6 @@ const QRContainer = styled.div`
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
 `;
 
-const QRCode = styled.div`
-  width: 240px;
-  height: 120px;
-  border-radius: 12px;
-  margin: 0 auto 1rem;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  position: relative;
-  overflow: hidden;
-  
-  img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    border-radius: 12px;
-  }
-`;
-
-const QRTitle = styled.div`
-  font-size: 0.875rem;
-  font-weight: 600;
-  color: #374151;
-  margin-bottom: 0.5rem;
-`;
-
-const QRSubtitle = styled.div`
-  font-size: 0.75rem;
-  color: #6b7280;
-  margin-bottom: 1rem;
-`;
 
 const ScanButton = styled.button`
   background: linear-gradient(135deg, #60a5fa, #3b82f6);
@@ -342,39 +311,6 @@ const ScanButton = styled.button`
   }
 `;
 
-const PaginationDots = styled.div`
-  display: flex;
-  justify-content: center;
-  gap: 0.5rem;
-  padding: 0.75rem 0;
-`;
-
-const Dot = styled.div`
-  width: 6px;
-  height: 6px;
-  border-radius: 50%;
-  background: ${props => props.active ? '#8b5cf6' : '#e5e7eb'};
-`;
-
-const PayButton = styled.button`
-  background: linear-gradient(135deg, #60a5fa, #3b82f6);;
-  color: white;
-  border: none;
-  border-radius: 12px;
-  padding: 1rem;
-  font-size: 1rem;
-  font-weight: 600;
-  margin: 0.75rem 1.25rem;
-  cursor: pointer;
-  transition: all 0.3s ease;
-  box-shadow: 0 4px 12px rgba(255, 107, 53, 0.2);
-
-  &:hover {
-    background: #e55a2b;
-    transform: translateY(-2px);
-    box-shadow: 0 8px 20px rgba(255, 107, 53, 0.3);
-  }
-`;
 
 const SuccessPopup = styled(motion.div)`
   position: absolute;
@@ -414,18 +350,6 @@ const SuccessText = styled.div`
     content: "";
     margin-top: 0.25rem;
   }
-`;
-
-const Arrow = styled.div`
-  position: absolute;
-  top: 50%;
-  right: -50px;
-  transform: translateY(-50%);
-  width: 0;
-  height: 0;
-  border-left: 25px solid white;
-  border-top: 12px solid transparent;
-  border-bottom: 12px solid transparent;
 `;
 
 const HandDrawnArrow = styled.img`
